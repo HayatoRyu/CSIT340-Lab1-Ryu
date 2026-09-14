@@ -1,44 +1,60 @@
 function App() {
   return (
-    <div className="max-w-2xl mx-auto pt-24 px-4 text-gray-700">
+    <>
+      <header className="max-w-2xl mx-auto px-6 pt-16">
+        <h1 className="text-4xl font-semibold tracking-tight">Hayato G. Ryu</h1>
+        <p className="mt-2 text-lg text-slate-600">Third year BSIT student at Cebu Institute of Technology – University.</p>
+        <hr className="mt-8 border-slate-200" />
+      </header>
 
-      <h1 className="text-4xl font-bold text-black mb-2">Hayato G. Ryu</h1>
-      <p className="text-lg mb-6">
-        Third year BSIT student at Cebu Institute of Technology - University.
-      </p>
+      <main className="max-w-2xl mx-auto px-6 py-10">
 
-      <hr className="border-gray-300 mb-8" />
+        <section className="mb-10">
+          <h2 className="text-xl font-semibold mb-3">About</h2>
+          <p className="leading-relaxed text-slate-700">
+            I grew up here in Cebu and I am half Japanese and half Filipino. I
+            picked IT because I wanted to build things people actually open, and
+            I have been slowly figuring out what part of that I enjoy most. So
+            far it is the part where something finally runs.
+          </p>
+        </section>
 
-      <h2 className="text-2xl font-bold text-black mb-2">About</h2>
-      <p className="mb-8 leading-relaxed">
-        I grew up here in Cebu and I am half Japanese and half Filipino. I
-        picked IT because I wanted to build things people actually open, and
-        I have been slowly figuring out what part of that I enjoy most. So
-        far it is the part where something finally runs. I enjoyed playing basketball
-        and Dota with my friends, and I also like to play badminton.
-      </p>
+        <section className="mb-10">
+          <h2 className="text-xl font-semibold mb-3">Details</h2>
+          <p className="leading-relaxed text-slate-700">
+            Course: BS Information Technology
+            <br />
+            Year level: Third year
+            <br />
+            Hometown: Cebu City
+          </p>
+        </section>
 
-      <h2 className="text-2xl font-bold text-black mb-2">Details</h2>
-      <p className="mb-1">Course: BS Information Technology</p>
-      <p className="mb-1">Year level: Third year</p>
-      <p className="mb-8">Hometown: Cebu City</p>
+        <section className="mb-10">
+          <h2 className="text-xl font-semibold mb-3">Things I like</h2>
+          <ul className="list-disc list-inside space-y-1 text-slate-700">
+            <li>Basketball</li>
+            <li>Dota</li>
+            <li>Badminton</li>
+          </ul>
+        </section>
 
-      <h2 className="text-2xl font-bold text-black mb-2">Things I like</h2>
-      <ul className="list-disc list-inside mb-8">
-        <li>Basketball</li>
-        <li>Dota</li>
-        <li>Badminton</li>
-      </ul>
+        <section>
+          <h2 className="text-xl font-semibold mb-3">Reach me</h2>
+          <p className="leading-relaxed text-slate-700">
+            hayatoryu58@gmail.com
+            <br />
+            @genesis_ryu on most things
+          </p>
+        </section>
 
-      <h2 className="text-2xl font-bold text-black mb-2">Reach me</h2>
-      <p className="mb-1">hayatoryu58@gmail.com</p>
-      <p className="mb-8">@genesis_ryu on most things</p>
+      </main>
 
-      <hr className="border-gray-300 mb-4" />
-
-      <p className="text-sm text-gray-400 pb-16">Made for CSIT340.</p>
-
-    </div>
+      <section className="max-w-2xl mx-auto px-6 pb-16">
+        <hr className="mb-6 border-slate-200" />
+        <p className="text-sm text-slate-500">Made for CSIT340.</p>
+      </section>
+    </>
   )
 }
 
