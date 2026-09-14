@@ -4,7 +4,7 @@ function App() {
 
       <h1 className="text-4xl font-bold text-black mb-2">Hayato G. Ryu</h1>
       <p className="text-lg mb-6">
-        Third year BSIT student at Cebu Institute of Technology – University.
+        Third year BSIT student at Cebu Institute of Technology - University.
       </p>
 
       <hr className="border-gray-300 mb-8" />
@@ -14,7 +14,8 @@ function App() {
         I grew up here in Cebu and I am half Japanese and half Filipino. I
         picked IT because I wanted to build things people actually open, and
         I have been slowly figuring out what part of that I enjoy most. So
-        far it is the part where something finally runs.
+        far it is the part where something finally runs. I enjoyed playing basketball
+        and Dota with my friends, and I also like to play badminton.
       </p>
 
       <h2 className="text-2xl font-bold text-black mb-2">Details</h2>
